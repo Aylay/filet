@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prospects",
+  "info": {
+    "singularName": "prospect",
+    "pluralName": "prospects",
+    "displayName": "prospect"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "prenom": {
+      "type": "string",
+      "required": true
+    },
+    "societe": {
+      "type": "string",
+      "required": true
+    },
+    "fonction": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "codePostal": {
+      "type": "integer",
+      "required": true
+    },
+    "telephone": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
