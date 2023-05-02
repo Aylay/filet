@@ -32,6 +32,7 @@ module.exports = createCoreController('api::prospect.prospect', ({ strapi }) => 
     .send({
       to: mailList,
       from: 'ocs@richard.fr',
+      bcc: 'mcblaizot@beavers-agency.fr',
       subject: 'Formulaire abonnement',
       html: textMail,
     });
