@@ -4,7 +4,8 @@
   "info": {
     "singularName": "prospect",
     "pluralName": "prospects",
-    "displayName": "prospect"
+    "displayName": "prospect",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -38,6 +39,9 @@
     "telephone": {
       "type": "string",
       "required": true
+    },
+    "lp": {
+      "type": "string"
     }
   }
 }

@@ -24,6 +24,7 @@ module.exports = createCoreController('api::prospect.prospect', ({ strapi }) => 
     textMail += 'Email : ' + response.data.attributes.email + '<br />'
     textMail += 'Téléphone : ' + response.data.attributes.telephone + '<br />'
     textMail += "Code postal de l'entreprise : " + response.data.attributes.codePostal + '<br />'
+    textMail += "Landing page : " + response.data.attributes.lp + '<br />'
     textMail += '<br />'
 
     await strapi
